@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slideshow.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header id="home" class="header-container">
+                <div class="nav-container">
+                    <nav>
+                        <ul id="main-menu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="clear"></div>
+                <h1>Welcome to code cafe</h1>
+            <div class="slider slider-bg">
+            </div>
+    </header>
+    
+    <main>
+        <section id="services">
+            <h2>Services</h2>
+            <p class="section-story">We offer web-development services, design and branding for your
+            business, search engine optimization and social media marketing
+            strategy to ensure rich user experience and high convercy for your business. 
+            Come on and impress your clients with modern solutions and unforgettable user experience. 
+            We make it a pleasure for your customers to visit your website. 
+            We use modern content managing systems that provide full control of your website. </p>
+            <div class="flex-container">
+                <div class="images-container wow slideInLeft">
+                    <img src="img/web.png" alt="globe of web">
+                    <h4>Web maintenance</h4>
+                    <p>Full tech support & maintenance of your website.</p>
+                </div>
+                <div class="images-container wow slideInLeft">
+                    <img src="img/dev-icon.png" alt="web design">
+                    <h4>Web design</h4>
+                    <p>Successful and eye-catching corporate design for your bussiness</p>
+                </div>
+                <div class="images-container wow slideInRight">
+                    <img src="img/devices-icon.png" alt="different devices">
+                    <h4>Web development</h4>
+                    <p>Development of corporate web-sites, blogs and online-stores.</p>
+                </div>
+                <div class="images-container wow slideInRight">
+                    <img src="img/flow-icon.png" alt="website layout">
+                    <h4>User experience</h4>
+                    <p>Premium quality user experience</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <p class="section-story">Check our latest projects that we have created</p>
+            <div class="flex-container portfolio-flex-container">
+                <div class="images-container ">
+                    <a href="#" rel="nofollow">
+                        <img src="img/portfolio-img-1.jpg" alt="first portfolio example">
+                    </a>
+                </div>
+                <div class="images-container ">
+                    <a href="#" rel="nofollow">
+                        <img src="img/portfolio-img-2.jpg" alt="second portfolio example">
+                    </a>
+                </div>
+                <div class="images-container ">
+                    <a href="#" rel="nofollow">
+                        <img src="img/portfolio-img-3.jpg" alt="third portfolio example">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <p class="section-story">Welcome to our blog section. Here you can always find interesting information about web development technologies and new
+            trends. Check out the latest web-development tools and snippets.
+            </p>
+        </section>
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <div class="contact-form">
+                <div id="form-messages"></div>
+                    <form  id="contact-form" name="contact-form" >
+                		<input type="text" id="full-name" name="full-name" placeholder="Full Name" required>
+                		<input type="email select" id="email" name="email" placeholder="E-mail Address" required>
+                		<textarea name="message" id="message" placeholder="Message"  rows=5 required></textarea>
+                		<label>
+                		    <input type="checkbox" id="like">I like your company
+                		</label>
+                		<button type="submit" id="btn-send">Send</button>
+        			</form>
+    			
+    		    <div class="contacts">
+                    <p>Your City, code 01234<br>Country Name<br><br>
+                    +880 123 456 78 98<br>+860 987 648 74 95<br><br>
+                    company@mail.com<br>sales@mail.com<br>
+                    </p>
+    			</div>
+			</div>
+        </section>
+    </main>
+    <footer>
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+        <p>© 2017</p>
+    </footer>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    
+    <script src="js/wow.min.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/index.js"></script>
+    
+    
+</body>
+</html>
